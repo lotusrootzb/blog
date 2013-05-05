@@ -28,5 +28,5 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO USER VALUES ('1', '闫国庆', '666888');
-INSERT INTO USER VALUES ('2', '张波', 'qwertyuiop');
+INSERT INTO USER VALUES ('1', 'ygq', 'qwertyuiop');
+INSERT INTO USER VALUES ('2', 'zb', 'qwertyuiop');
