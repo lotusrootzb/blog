@@ -30,6 +30,9 @@
 		<property name="maxStatements" value="${c3p0.maxStatements}" />
 		<property name="maxIdleTime" value="${c3p0.maxIdleTime}" />
 		<property name="checkoutTimeout" value="${c3p0.checkoutTimeout}" />
+		<property name="testConnectionOnCheckin" value="${c3p0.testConnectionOnCheckin}" />
+		<property name="testConnectionOnCheckout" value="${c3p0.testConnectionOnCheckout}" />
+		<property name="idleConnectionTestPeriod" value="${c3p0.idleConnectionTestPeriod}" />
 	</bean>
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
